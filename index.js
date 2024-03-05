@@ -10,7 +10,6 @@ class PandaTea {
   
     getTeaData(key) {
       const value = this.teaData[key];
-      console.log(`Retrieved Panda Tea data for key '${key}':`, value);
       return value;
     }
   }
